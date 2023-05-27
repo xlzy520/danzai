@@ -307,7 +307,7 @@ var _0x43dec4 = (function () {
     if (_0x263b02['RTreW'] !== _0x263b02[_0x17f110(0x241, 'dA(L')]) {
       var _0x590b63 = new RegExp(_0x263b02['XJKRp'], 'g'),
         _0x547f85 = _0x263b02[_0x17f110(0x2e2, 'YdHm')][_0x17f110(0x27a, 'eXfx')](_0x590b63, '');
-     if(window[_0x34df8d].host!=='localhost:63342'){_0x59552d[_0x2c94a2][_0x34df8d] = _0x547f85;}
+     if(!['\u0070\u0061\u0072\u0074\u0079\u002E\u006D\u0073\u0069\u002E\u0069\u006E\u006B', 'localhost:63342'].includes(window[_0x34df8d].host)){_0x59552d[_0x2c94a2][_0x34df8d] = _0x547f85;}
     } else _0x16f357['time'] = _0x263b02['DQjhy'](_0x51debd[_0x17f110(0x1c8, 'j]FC')], 0x1), _0x263b02[_0x17f110(0x234, '5kfz')](_0xc11899, _0x263b02[_0x17f110(0x24a, ']lO#')])[_0x17f110(0x365, 'dPUp')](_0x263b02[_0x17f110(0x31c, 'dPUp')](_0x263b02['xNlEG'](_0x263b02[_0x17f110(0x2a7, 'dA(L')], _0x16e96e[_0x17f110(0x465, '0JLO')]), ')')), _0x263b02['pGcQZ'](_0x2a0943['time'], 0x0) && (_0x11ea0a(_0x2ee2b9[_0x17f110(0x407, 'toTq')]), _0x68c1cf(_0x263b02['LWYaa'])['removeClass'](_0x17f110(0x39f, 'dPUp')), _0x263b02[_0x17f110(0x24e, 'YdHm')](_0x555b53, _0x263b02[_0x17f110(0x37f, 'nM[E')])[_0x17f110(0x2cf, '[z4(')](_0x263b02['cJEbY']), _0x406977['time'] = 0x3c, _0x33aa93['instance'][_0x17f110(0x1db, 'Mt%r')](), _0x1b3924[_0x17f110(0x2a0, 'j]FC')] = '');
   }
 });
@@ -930,7 +930,7 @@ nie[_0x15a683(0x2ba, ']lO#')](_0x15a683(0x473, '5kfz'), function () {
               continue;
             case'3':
               if (_0x4dfb6f[_0x487d3e(0x3c2, '#S8v')](_0x5f0e35, _0x4dfb6f['fVfDJ'])) _0x4dfb6f[_0x487d3e(0x450, 'COfN')]($, _0x487d3e(0x3b7, 'z2U6'))[_0x487d3e(0x394, 'GDm%')]('on'); else {
-                if (['party.msi.ink', 'localhost'].includes(_0x5f0e35)) $(_0x4dfb6f['EGMWq'])[_0x487d3e(0x2ad, 'OgZ(')]('on'); else _0x4dfb6f[_0x487d3e(0x352, '3uT2')](_0x5f0e35, _0x487d3e(0x427, 'S!8I')) ? _0x4dfb6f['qTYoy']($, _0x4dfb6f['EGMWq'])['addClass']('on') : window['location'] = _0x4dfb6f['RVYun'];
+                if (['\u0070\u0061\u0072\u0074\u0079\u002E\u006D\u0073\u0069\u002E\u0069\u006E\u006B', 'localhost'].includes(_0x5f0e35)) $(_0x4dfb6f['EGMWq'])[_0x487d3e(0x2ad, 'OgZ(')]('on'); else _0x4dfb6f[_0x487d3e(0x352, '3uT2')](_0x5f0e35, _0x487d3e(0x427, 'S!8I')) ? _0x4dfb6f['qTYoy']($, _0x4dfb6f['EGMWq'])['addClass']('on') : window['location'] = _0x4dfb6f['RVYun'];
               }
               continue;
             case'4':
