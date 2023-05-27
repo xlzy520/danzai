@@ -1,0 +1,70 @@
+.new-order-ctn {
+    width: 7.43rem;
+    height: 4.64rem;
+    background: url(../images/pop_order_6a259a9.png);
+    background-size: 100% auto;
+    padding-bottom: 0
+}
+
+.new-order-ctn .header-title {
+    display: none
+}
+
+.new-order-ctn .order-ctn.phone-ctn {
+    width: 5rem !important;
+    margin: .8rem 0 0 1.8rem !important
+}
+
+.new-order-ctn .order-ctn.phone-ctn .input {
+    width: 4.9rem;
+    height: .79rem;
+    background: url(../images/pop_ipbg_bb3e571.png);
+    background-size: 100% 100%;
+    border: 0;
+    margin-bottom: .1rem
+}
+
+.new-order-ctn .order-ctn.phone-ctn .input.short-input {
+    width: 3rem;
+    height: .79rem;
+    background: url(../images/pop_ipbg2_3be67af.png);
+    background-size: 100% 100%
+}
+
+.new-order-ctn .order-ctn.phone-ctn .input input {
+    font-size: .44rem;
+    line-height: .5rem;
+    color: #4e68ee;
+    margin: 0;
+    padding: .08rem 0 .08rem .27rem;
+    display: flex;
+    align-items: center;
+    height: .66rem;
+    box-sizing: border-box
+}
+
+.new-order-ctn .order-ctn.phone-ctn .yidun_control {
+    background: url(../images/pop_yzbg_e815a63.png) no-repeat !important;
+    background-size: 100% 120% !important;
+    border: 0
+}
+
+.new-order-ctn .order-ctn.phone-ctn .verify-btn {
+    width: 1.84rem;
+    height: .79rem;
+    background: url(../images/yzmbtn_d35dd18.png);
+    background-size: 100% 100%;
+    border: 0;
+    margin-right: .1rem;
+    font-size: .26rem;
+    color: #5a5a5a
+}
+
+.new-order-ctn .order-ctn.phone-ctn .order-btn {
+    width: 2.61rem;
+    height: .76rem;
+    background: url(../images/pop_orderbtn_a4a3ef9.png);
+    background-size: 100% 100%;
+    margin: 0rem 0 0 .8rem;
+    font-size: 0
+}

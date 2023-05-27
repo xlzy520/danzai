@@ -1,0 +1,292 @@
+@charset "utf-8";
+.new-order-ctn a {
+    text-decoration: none
+}
+
+.new-order-shadow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: .8;
+    filter: opacity(80);
+    display: none;
+    z-index: 999
+}
+
+.new-order-loading {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    background: rgba(0, 0, 0, .7);
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.new-order-loading::before {
+    content: '启动小程序';
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 2rem;
+    display: block;
+    text-align: center;
+    width: 100%
+}
+
+.new-order-loading::after {
+    content: '';
+    display: block;
+    background: url(../images/loading_1140bc5.gif) no-repeat;
+    background-size: 100%;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    margin-left: -18px
+}
+
+.new-order-ctn {
+    z-index: 1000;
+    display: none;
+    position: fixed;
+    width: 6.5rem;
+    height: auto;
+    padding-bottom: 22px;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.new-order-ctn .header-title {
+    width: 100%;
+    height: 1.3rem;
+    text-align: center;
+    float: left
+}
+
+.new-order-ctn .header-title span {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    width: 5rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    text-align: center;
+    margin-left: .75rem;
+    border-bottom: 1px solid #ccc
+}
+
+.new-order-ctn .order-ctn {
+    width: 100%;
+    float: left
+}
+
+.new-order-ctn .order-ctn.phone-ctn {
+    width: 5rem;
+    margin: 23px 0 0 .75rem
+}
+
+.new-order-ctn .order-ctn .input {
+    width: 5rem;
+    height: .76rem;
+    border: 1px solid #5c5c5c;
+    background: #fff;
+    float: left;
+    margin-bottom: 10px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+
+.new-order-ctn .order-ctn .input input {
+    width: 80%;
+    border: 0;
+    padding: 0;
+    background: 0 0;
+    height: 20px;
+    font-size: 16px;
+    margin: .18rem 0 0 27px;
+    color: #000;
+    float: left
+}
+
+.new-order-ctn .order-ctn .input input::-webkit-input-placeholder {
+    color: #585858;
+    font-size: 16px
+}
+
+.new-order-ctn .order-ctn .input input:focus {
+    outline: 0
+}
+
+.new-order-ctn .order-ctn .input.short-input {
+    width: 3.3rem
+}
+
+.new-order-ctn .order-ctn .input.focus {
+    border-color: #000
+}
+
+.new-order-ctn .order-ctn .input.error {
+    border-color: #cf0f32
+}
+
+.new-order-ctn .order-ctn .input.right {
+    border-color: green
+}
+
+.new-order-ctn .order-ctn .verify-btn {
+    width: 1.5rem;
+    height: .75rem;
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: .75rem;
+    text-decoration: none;
+    font-size: 14px;
+    color: #434343;
+    background: #c9c9c9;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #454545
+}
+
+.new-order-ctn .order-ctn .verify-btn.sended {
+    opacity: .6;
+    cursor: default
+}
+
+.new-order-ctn .order-ctn .order-btn {
+    width: 5rem;
+    height: 1.07rem;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.07rem;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    background: url(../images/btn_e82f092.png) no-repeat;
+    background-size: 100%
+}
+
+.new-order-ctn .order-ctn .order-btn:hover {
+    opacity: .9;
+    filter: opacity(90)
+}
+
+.new-order-ctn .order-ctn .order-btn.disabled {
+    opacity: .5;
+    filter: opacity(50)
+}
+
+.new-order-ctn .order-ctn .i_right {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    background: url(../images/right_e2b40cd.png) no-repeat;
+    background-size: 100%;
+    margin: 49px 0 0 2.25rem
+}
+
+.new-order-ctn .order-ctn .back-to {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    color: #808182;
+    font-size: 16px
+}
+
+.new-order-ctn .order-ctn .back-to a {
+    color: #748bb7;
+    text-decoration: none
+}
+
+.new-order-ctn .close-btn {
+    display: block;
+    width: .8rem;
+    height: .8rem;
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    margin-left: -.4rem;
+    text-decoration: none;
+    background: url(../images/close_9a55dbb.png) center center no-repeat;
+    background-size: 60%
+}
+
+.new-order-tips-open {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000
+}
+
+.new-order-tips-open .i_arrow {
+    display: block;
+    width: 2.2rem;
+    height: 2.2rem;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    background: url(../images/arrow_210d61b.png) no-repeat;
+    background-size: 100%
+}
+
+.new-order-tips-open span {
+    font-size: 20px;
+    color: #91908f;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 2.3rem;
+    text-align: center
+}
+
+.new-order-tips-open p {
+    font-size: 22px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 2.8rem;
+    text-align: center;
+    color: #cfcecd
+}
+
+.new-order-tips-open p a {
+    color: #3175c9;
+    text-decoration: underline
+}
+
+.new-order-tips-open p img {
+    width: 66%
+}
